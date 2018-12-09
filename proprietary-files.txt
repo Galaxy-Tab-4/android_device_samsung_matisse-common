@@ -24,20 +24,20 @@ vendor/lib/libaudcal.so
 #vendor/lib/libcsd-client.so
 
 # DIAG-Samsung-Modem
-etc/Diag.cfg
-etc/Diag_audio.cfg
-etc/Diag_gps.cfg
-etc/Diag_volte.cfg
-etc/Diag_zero.cfg
+#etc/Diag.cfg
+#etc/Diag_audio.cfg
+#etc/Diag_gps.cfg
+#etc/Diag_volte.cfg
+#etc/Diag_zero.cfg
 #etc/alp_cal.dat
 #etc/plmn_delta.bin
-etc/plmn_se13.bin
-etc/srm.bin
+#etc/plmn_se13.bin
+#etc/srm.bin
 
 # Bluetooth
-bin/btnvtool
-bin/hci_qcomm_init
-vendor/lib/libbtnv.so
+#bin/btnvtool
+#bin/hci_qcomm_init
+#vendor/lib/libbtnv.so
 #vendor/lib/liboi_sbc_decoder.so
 
 # Camera
@@ -115,7 +115,7 @@ lib/libTs_J_Awb.so
 #lib/libarcsoft_skin_soften.so
 lib/libarcsoft_panorama_burstcapture.so
 lib/libarcsoft_sensorndk.so
-lib/libarcsoft_selfie_camera_lite.so
+#lib/libarcsoft_selfie_camera_lite.so
 lib/libchromatix_s5k6a3yx_smart_stay.so
 lib/libchromatix_s5k6a3yx_vt.so
 lib/libchromatix_s5k6a3yx_vt_hd.so
@@ -195,7 +195,7 @@ cameradata/datapattern_front_420sp.yuv
 
 # DRM
 bin/qseecomd
-lib/libdrmdecrypt.so:vendor/lib/libdrmdecrypt.so
+#lib/libdrmdecrypt.so:vendor/lib/libdrmdecrypt.so
 vendor/lib/libdrmdiag.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
@@ -204,17 +204,17 @@ vendor/lib/librpmb.so
 vendor/lib/libssd.so
 
 # CNE
-vendor/lib/libcneapiclient.so
-vendor/lib/libcneconn.so
-vendor/lib/libcneqmiutils.so
-vendor/lib/libNimsWrap.so
+#vendor/lib/libcneapiclient.so
+#vendor/lib/libcneconn.so
+#vendor/lib/libcneqmiutils.so
+#vendor/lib/libNimsWrap.so
 vendor/lib/libxml.so
 
 # Listen service
-vendor/lib/liblistenhardware.so
-vendor/lib/liblistenjni.so
-vendor/lib/liblisten.so
-vendor/lib/liblistensoundmodel.so
+#vendor/lib/liblistenhardware.so
+#vendor/lib/liblistenjni.so
+#vendor/lib/liblisten.so
+#vendor/lib/liblistensoundmodel.so
 
 # GPS
 #app/com.qualcomm.location/com.qualcomm.location.apk
@@ -227,8 +227,8 @@ vendor/lib/liblbs_core.so
 #vendor/lib/liblocationservice.so
 
 # Graphics firmware
-etc/firmware/a300_pfp.fw
-etc/firmware/a300_pm4.fw
+#etc/firmware/a300_pfp.fw
+#etc/firmware/a300_pm4.fw
 etc/firmware/a330_pfp.fw
 etc/firmware/a330_pm4.fw
 
@@ -249,17 +249,17 @@ bin/mpdecision
 vendor/lib/libqti-perfd-client.so
 
 # Radio
-lib/libatparser.so
-lib/libcordon.so
-lib/libfactoryutil.so
-lib/libomission_avoidance.so
+#lib/libatparser.so
+#lib/libcordon.so
+#lib/libfactoryutil.so
+#lib/libomission_avoidance.so
 
 # Sensors
 lib/hw/sensors.msm8226.so
 #lib/libyasalgo.so
 
 # Thermal
-bin/thermal-engine
+#bin/thermal-engine
 vendor/lib/libthermalclient.so
 vendor/lib/libthermalioctl.so
 
@@ -270,26 +270,26 @@ bin/time_daemon
 #vendor/lib/libTimeService.so
 
 # WFD
-vendor/lib/libwfdcommonutils.so
-vendor/lib/libwfdhdcpcp.so
-vendor/lib/libwfdmmsink.so
-vendor/lib/libwfdmmsrc.so
-vendor/lib/libwfdmmutils.so
-vendor/lib/libwfdnative.so
-vendor/lib/libwfdrtsp.so
-vendor/lib/libwfdsm.so
-vendor/lib/libwfduibcinterface.so
-vendor/lib/libwfduibcsink.so
-vendor/lib/libwfduibcsinkinterface.so
-vendor/lib/libwfduibcsrc.so
-vendor/lib/libwfduibcsrcinterface.so
-vendor/lib/libmmwfdinterface.so
-vendor/lib/libmmwfdsinkinterface.so
-vendor/lib/libmmwfdsrcinterface.so
+#vendor/lib/libwfdcommonutils.so
+#vendor/lib/libwfdhdcpcp.so
+#vendor/lib/libwfdmmsink.so
+#vendor/lib/libwfdmmsrc.so
+#vendor/lib/libwfdmmutils.so
+#vendor/lib/libwfdnative.so
+#vendor/lib/libwfdrtsp.so
+#vendor/lib/libwfdsm.so
+#vendor/lib/libwfduibcinterface.so
+#vendor/lib/libwfduibcsink.so
+#vendor/lib/libwfduibcsinkinterface.so
+#vendor/lib/libwfduibcsrc.so
+#vendor/lib/libwfduibcsrcinterface.so
+#vendor/lib/libmmwfdinterface.so
+#vendor/lib/libmmwfdsinkinterface.so
+#vendor/lib/libmmwfdsrcinterface.so
 
 # WideVine - from bullhead
-vendor/lib/libwvdrm_L1.so|3eaf8ed1cb337608a1ccdb80d2c95804e7aea323
-lib/libwvm.so:vendor/lib/libwvm.so|59c4c078f4b897ddac8f665309b7a3f25522f207
-vendor/lib/libWVStreamControlAPI_L1.so|6b28492ac55b9a3d86993343cf2c8b55240b3420
-lib/drm/libdrmwvmplugin.so:vendor/lib/drm/libdrmwvmplugin.so|3bee766222895f524421eb996ca6a08bcf95f19f
-vendor/lib/mediadrm/libwvdrmengine.so|6bdcc4d59b07ccbdd7b07a99677406ade3d2e232
+#vendor/lib/libwvdrm_L1.so
+lib/libwvm.so:vendor/lib/libwvm.so
+#vendor/lib/libWVStreamControlAPI_L1.so
+lib/drm/libdrmwvmplugin.so:vendor/lib/drm/libdrmwvmplugin.so
+vendor/lib/mediadrm/libwvdrmengine.so
